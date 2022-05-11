@@ -1,0 +1,19 @@
+.image {
+    width: 220px;
+    display: block;
+    align-self: center;
+}
+
+.card {
+    background-color: antiquewhite;
+    height: 380px;
+    width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
