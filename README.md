@@ -76,3 +76,23 @@ We appreciate that your time is valuable and recommend you not spend more than 2
 
 The goal of the test is to prove your understanding of the concepts of modern HTML/CSS/JS, but not to produce something production ready or pixel perfect.
 Your work will be tested in the browser of your choice, so please specify this when submitting. This can include pre-release browsers such as Chrome Canary or Safari Technology Preview if you want to work with experimental features.
+
+## Maiara's Notes
+
+Thank you for the opportunity to take this test. I had a lot of fun working on it and it gave me the chance to revisit some concepts and learn new ones. I did my best and hope you like the result.
+
+I installed React Bootstrap to work with the images and the forms. I like Bootstrap because it already has built-in functionality and styles and helps the result be responsive and neat.
+
+### 1. UI Development
+
+I set the images in two columns and made them smaller to fit the screen. I also added transitions and filters to show some CSS work.
+
+### 2. Performance
+
+A good way to improve the API's performance would be caching the images so that they don't need to be queried from the database every time. We can measure the improvement in performance by checking the API's metrics using a monitor or tracker. We should pay special attention to its response time, latency, how it responds to the amount of current users at one time, and its availability.
+
+### 3. Form
+
+I used a Bootstrap form in a card. It doesn't submit anwywhere, but it validates the inputs. The salary range will be input using a simple slider.
+
+If you have any questions or comments, please do not hesitate to contact me.
