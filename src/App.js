@@ -26,14 +26,14 @@ const App = () => {
               <Row className="row justify-content-center">
                 <Col md={4} style={{ margin: "1em" }}>
                   <Card className="card">
-                    <img className="image" src={`${img.url}.jpg`} alt="" />
+                    <img className="image-cars" src={`${img.url}.jpg`} alt="" />
                   </Card>
                 </Col>
 
                 <Col md={4} style={{ margin: "1em" }}>
                   <Card className="card">
                     <img
-                      className="image card-img-center"
+                      className="image-users"
                       src={`${img.user.profile_image}.webp`}
                       alt=""
                     />
