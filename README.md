@@ -95,4 +95,4 @@ A good way to improve the API's performance would be caching the images so that 
 
 I used a Bootstrap form in a card. It doesn't submit anwywhere, but it validates the inputs. The salary range will be input using a simple slider.
 
-If you have any questions or comments, please do not hesitate to contact me.
+If you have any questions or comments, please do not hesitate to contact me on maiglopes@gmail.com.
