@@ -7,12 +7,19 @@ export function FormValidation() {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
+    //Identifies what is the event target
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
     }
     setValidated(true);
   };
+  const [range, setRange] = useState(20);
+
+  function handleChange(event) {
+    let newRange = event.target.value;
+    setRange(newRange);
+  }
 
   return (
     <CardGroup>
@@ -71,7 +78,8 @@ export function FormValidation() {
             <Form.Group>
               <Form.Label>Salary Range: </Form.Label>
               <br />
-              <Form.Range min={20} max={50} required />
+              <Form.Range onChange={handleChange} min={20} max={50} required />
+              <Form.Label className="range-value">{range}</Form.Label>
               <Form.Control.Feedback type="invalid">
                 Please enter your salary range
               </Form.Control.Feedback>
